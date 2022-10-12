@@ -1,0 +1,41 @@
+html {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url("./../img/header_background.jpg") no-repeat center top / cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  color: #fff;
+  text-align: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+}
+
+.greeting {
+  font-size: 35px;
+}
+
+.info {
+  font-size: 16px;
+}
