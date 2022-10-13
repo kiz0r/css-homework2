@@ -19,7 +19,7 @@ body {
   justify-content: center;
 }
 
-.wrapper {
+.headerWrapper {
   color: #fff;
   text-align: center;
   max-width: 300px;
@@ -33,9 +33,37 @@ body {
 }
 
 .greeting {
+  margin: 15px 0px;
   font-size: 35px;
+  line-height: 45px;
 }
 
 .info {
   font-size: 16px;
+  line-height: 26px;
+}
+
+.cards {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.fa-youtube {
+  content: "\f167";
+}
+
+.fa-chalkboard-user {
+  content: "\f51c";
+}
+
+.fa-briefcase {
+  content: "\f0b1";
+}
+
+svg {
+  font-family: "Font Awesome 5 Free";
+  font-size: 3em;
 }
