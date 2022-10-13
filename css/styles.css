@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+p {
+  font-size: 16px;
+}
+
 .header {
   background: url("./../img/header_background.jpg") no-repeat center top / cover;
   height: 100vh;
@@ -39,8 +43,15 @@ body {
 }
 
 .info {
-  font-size: 16px;
   line-height: 26px;
+}
+
+.contentWrapper {
+  width: 80%;
+  display: flex;
+  max-width: 990px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .cards {
@@ -49,6 +60,9 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
 }
 
 .fa-youtube {
@@ -66,4 +80,11 @@ body {
 svg {
   font-family: "Font Awesome 5 Free";
   font-size: 3em;
+}
+
+.title {
+  line-height: 20px;
+  margin: 10px 0px;
+  font-weight: 700;
+  font-size: 19px;
 }
