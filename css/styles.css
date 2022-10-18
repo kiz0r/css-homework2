@@ -1,4 +1,5 @@
-html {
+html,
+body {
   height: 100%;
 }
 
@@ -17,7 +18,17 @@ p {
 }
 
 .header {
-  background: url("./../img/header_background.jpg") no-repeat center top / cover;
+  background: url("./../img/header_background.jpg") #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -28,8 +39,12 @@ p {
   color: #fff;
   text-align: center;
   max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  transition: all 0.9s ease;
+}
+
+.headerWrapper:hover {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .logo {
