@@ -50,35 +50,22 @@ p {
   width: 80%;
   display: flex;
   max-width: 990px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .cards {
   background: #000;
   color: #fff;
   display: flex;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  padding: 100px 0px;
 }
 
-.fa-youtube {
-  content: "\f167";
-}
-
-.fa-chalkboard-user {
-  content: "\f51c";
-}
-
-.fa-briefcase {
-  content: "\f0b1";
-}
-
-svg {
-  font-family: "Font Awesome 5 Free";
+.fas,
+.fab {
   font-size: 3em;
 }
 
@@ -87,4 +74,39 @@ svg {
   margin: 10px 0px;
   font-weight: 700;
   font-size: 19px;
+}
+
+.aboutUs {
+  height: 50vh;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.gridBox {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.leftBlock {
+  padding-left: 30px;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.rightBlock {
+  margin-left: auto;
+  max-width: 470px;
+}
+
+.fa-laptop-code {
+  width: 200px !important;
+}
+
+.footer {
+  background: #333;
+  color: #f4f4f4;
 }
