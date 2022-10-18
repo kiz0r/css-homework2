@@ -1,4 +1,5 @@
 html {
+  height: 100%;
 }
 
 * {
@@ -52,6 +53,7 @@ p {
   max-width: 990px;
   margin: 0 auto;
   text-align: center;
+  justify-content: space-between;
 }
 
 .cards {
@@ -84,29 +86,19 @@ p {
   align-items: center;
 }
 
-.gridBox {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .leftBlock {
   padding-left: 30px;
   max-width: 300px;
-  margin-right: auto;
   margin-left: 50px;
 }
 
 .rightBlock {
-  margin-left: auto;
   max-width: 470px;
 }
 
-.fa-laptop-code {
-  width: 200px !important;
-}
-
 .footer {
+  text-align: center;
+  padding: 40px 0px;
   background: #333;
   color: #f4f4f4;
 }
